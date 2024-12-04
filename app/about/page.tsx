@@ -7,11 +7,8 @@ export default function Page() {
     return <>
         <div className="container py-4">
             <div className="row">
-
                 <Header />
-
                 <Nav />
-
                 <div className="col-9">
                     <img className="d-block w-100 mb-3" src="https://cdnb.artstation.com/p/assets/images/images/070/436/323/large/axl-brett-image-2023-12-13-211415443.jpg?1702521212" />
                     <h1>About Us</h1>
@@ -34,7 +31,6 @@ export default function Page() {
                         <li>Natural flavorings</li>
                     </ol>
                 </div>
-
                 <Footer />
             </div>
         </div>
